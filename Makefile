@@ -35,11 +35,8 @@ endif
 
 ifneq ($(shell bash -c '$(COOKIECUTTER)' >/dev/null 2>&1; echo $$?), 2)
 	$(warning "! Cookiecutter is required to set up this template.")
-	$(warning "! make will fail otherwise.")
-
-	@echo "Install cookiecutter? [y/n] "; \
-	read -r INSTALL_COOKIECUTTER; \
-	[ $$INSTALL_COOKIECUTTER = "y" ] && (bash -c 'pip install $(COOKIECUTTER)')
+	$(warning "! make will fail otherwise. Attempting install...")
+	(bash -c 'pip install $(COOKIECUTTER)')
 endif
 
 # Project template tasks
