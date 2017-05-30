@@ -1,7 +1,7 @@
 Python Project Bootstrapper
 ===========================
 
-A `Makefile` to initalize all my typical Python projects easily. Uses [the awesome `cookiecutter`](https://github.com/audreyr/cookiecutter) to turn templates, repos in my Github account, into good project scaffolds.
+A `Makefile` to initalize all my typical Python projects easily. Uses [the awesome `cookiecutter`](https://github.com/audreyr/cookiecutter) to turn templates, [repos in my Github account](https://github.com/afreeorange?tab=repositories&q=template-python), into good project scaffolds.
 
 Usage
 -----
@@ -20,4 +20,4 @@ References
 License
 -------
 
-MIT
+Do whatever you want.
